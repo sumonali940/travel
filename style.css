@@ -37,6 +37,17 @@
     color: rgb(255, 84, 0);
 }
 
+.secondary-bg {
+    background-color: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .header-area {
     display: flex;
     flex-direction: row;
@@ -67,4 +78,105 @@ ul.menu ul li a {
 a {
     text-decoration: none;
     color: rgb(66, 66, 71);
+}
+
+/* Hero Section  */
+
+#hero {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%),
+        url('images/Group%2013%20(1)%20(1).png');
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    opacity: 1;
+    margin-bottom: 100px;
+}
+
+.hero-section-area {
+    width: 800px;
+    text-align: center;
+}
+
+.title-area h1 {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 0px 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.title-area p {
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0px 62px;
+    margin-bottom: 45px;
+}
+
+.input-area {
+    width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 174px;
+    height: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+}
+
+select {
+    padding: 10px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+button {
+    padding: 10px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none !important;
+    border: none;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+button:hover{
+    background-color: orange;
+
 }
